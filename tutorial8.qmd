@@ -1,0 +1,19 @@
+---
+title: "Nonresponse Adjustments in Survey Research"
+author: "Emily Kim"
+editor: visual
+date: "`r Sys.time()`"
+date-format: "D MMMM YYYY"
+thanks: "Data and references are available at
+format: pdf
+bibliography: references.bib
+---
+
+# Introduction
+
+blah
+
+\newpage
+
+# References
+
