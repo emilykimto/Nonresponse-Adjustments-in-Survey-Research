@@ -4,16 +4,34 @@ author: "Emily Kim"
 editor: visual
 date: "`r Sys.time()`"
 date-format: "D MMMM YYYY"
-thanks: "Data and references are available at
+thanks: "Data and references are available at https://github.com/emilykimto/Nonresponse-Adjustments-in-Survey-Research.git"
 format: pdf
 bibliography: references.bib
 ---
 
 # Introduction
 
-blah
+Nonresponse adjustments in survey research are a crucial aspect of ensuring that survey results are representative of the population being studied, as bias can affect its accuracy. When a significant portion of the target population does not participate in a survey, the resulting data may not represent the views and opinions of the entire population. Such bias might occur when there are differences between respondents and nonrespondents on key variables such as age, gender, or income. Since nonresponse rates can have such a significant impact on the quality and accuracy of survey results, researchers must take steps to account for nonresponse in their data analysis. Nonresponse adjustment techniques might include weighting and imputation.
+
+# Nonresponse Adjustment Technique 1: Weighting
+
+One common way to address nonresponse in surveys is through a method known as weighting. Weighting involves assigning different weights to survey responses based on differences in response rates across different groups within the population. For instance, if men are less likely to respond to a survey than women, the survey responses from men may be given a higher weight to ensure their representation in the final analysis. In this way, the weighting technique can be effective for reducing nonresponse bias, but its success is heavily dependent on the accuracy of the information used to determine the weights. It would require precise and accurate information on the characteristic of the population being studied. Therefore, weighting might also introduce bias if the probability of selection and response are not estimated accurately, so it is very important to use caution when using weighting as a nonresponse adjustment method.
+
+# Nonresponse Adjustment Technique 2: Imputation
+
+Another common technique for nonresponse adjustments is imputation. This technique involves estimating missing values by filling in the gaps with information from other responses within the survey or external data sources. This way, nonresponse adjustment can be used to improve the completeness of data and reduce nonresponse bias. In particular, multiple imputation has become a popular approach for handling missing data in survey research [@rubin]. Multiple imputation involves generating multiple datasets with plausible values for the missing data, analyzing each dataset separately, and then combining the results to obtain a final estimate. This technique can be especially helpful for surveys that are small or complex with high levels of missing data. However, as with weighting, imputation can also introduce bias if the imputed values are not accurate or if the imputation model is not correctly specified. Nevertheless, it can be an effective tool for handling missing data in surveys.
+
+When compared side by side, both weighting and imputation have their limitations. Weighting requires accurate information on the characteristics of the population being studied, which can be difficult to obtain for hard-to-reach populations. On the other hand, imputation relies on the assumption that the missing data are at random, which is not always the case. Moreover, imputed values may be less accurate than actual responses, particularly if the missing data are related to topics that are more difficult to measure [@littleandrubin].
+
+# Conclusion
+
+Nonresponse adjustments can be a useful tool in survey research, but they have their limitations and potential biases that researchers should be aware of when employing them. Each adjustment method should be carefully considered in terms of how appropriate they are, based on the specific survey and sample being studied. For example, weighting might not be as effective for surveys with low response rates while imputation may be less appropriate for surveys with a large amount of missing data.
+
+However, there are other strategies that researchers can use to increase response rates and reduce nonresponse bias. These include offering incentives, using multiple methods of data collection, and using clear and concise survey questions and instructions. By implementing these strategies, researchers can improve their chances of reaching potential respondents and increasing response rates.
+
+In sum, nonresponse adjustments are an important aspect of survey research to ensure that the results accurately represent the population being studied. However, both weighting and imputation have their strengths and limitations, and researchers should carefully consider which method is the best fit.
+
 
 \newpage
 
 # References
-
